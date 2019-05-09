@@ -1,0 +1,36 @@
+#-------------#
+# Maven Files #
+#-------------#
+target
+
+#---------------------------#
+# Anypoint Studio / Eclipse #
+#---------------------------#
+.studio
+.classpath
+.project
+.settings
+mule-project.xml
+.mule
+.metadata
+catalog
+lib
+bin
+build
+Servers
+#----------------------------------#
+# Project Specific files to ignore #
+#----------------------------------#
+src/main/resources/Keys/
+src/main/app/mule-app.properties
+#-----------#
+# Mac Files #
+#-----------#
+.DS_Store
+
+
+#------------------#
+# Derby / ActiveMQ #
+#------------------#
+activemq-data
+derby.log
